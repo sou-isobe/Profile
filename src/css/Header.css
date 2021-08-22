@@ -1,0 +1,91 @@
+.header {
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+  border-color: #bab6b6;
+  margin-bottom: 60px;
+}
+
+.header_img {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.head_wrapper img {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  border-radius: 50%;
+  padding: 7px;
+  z-index: 1100;
+}
+
+.head_wrapper .perfect-circle {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fbfbfb;
+}
+
+.header_content ul {
+  display: flex;
+  justify-content: center;
+}
+
+.header_content li {
+  width: 200px;
+  text-align: center;
+}
+
+.icon_header {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.icon_header__profile::before {
+  content: "\f2bd";
+  display: block;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.icon_header__skill::before {
+  content: "\f518";
+  display: block;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.icon_header__hobby::before {
+  content: "\f004";
+  display: block;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.header_about_me {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_about_me .header_about_me__name {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header_about_me .header_about_me__description {
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,38 @@
+.hobby{
+  margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+}
+.section:first-child {
+  margin-bottom: 20px;
+}
+
+.hobby_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 30px;
+
+}
+
+.hobby_list li{
+  margin: 10px;
+}
+
+.hobby_list li img{
+  padding: 10px;
+  border: 1px solid #bab6b6;;
+}
+
+.hobby_list li p {
+  padding:0px 20px;
+}
+
+.hobby_section{
+  align-items: center;
+}

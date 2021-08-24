@@ -32,7 +32,7 @@ function Header() {
           </li>
           <li>
             <a href="#skills" className="icon_header icon_header__skill">
-              Skill
+              Skills
             </a>
           </li>
           <li>
